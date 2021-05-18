@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Countdown from "./components/Countdown";
+// import Countdown from "./components/Countdown";
+import Login from "./components/Login";
 
 const defaultDate = {
   dateName: "The F-Code Birthday",
@@ -10,10 +11,11 @@ const defaultDate = {
 
 ReactDOM.render(
   <React.StrictMode>
-    <Countdown
+    {/* <Countdown
       deadline={defaultDate.deadline}
       dateName={defaultDate.dateName}
-    />
+    /> */}
+    <Login />
   </React.StrictMode>,
   document.getElementById("root")
 );
